@@ -5,7 +5,7 @@
 ## Project Portflio is an opportunity to present myself and showcase the inputs i have been putting to build my career as a full stack developer. As a very new student with no previous coding experience i have given my 100% to this project. 
 
 # Mission
-    * to create a portfolio website to introduce oneself to the potentian employer so that they can review samples of work done and assess.
+    * to create a portfolio website to introduce oneself to the potential employer so that they can review samples of work done and assess.
 
 
 # Synopsis of work done
@@ -18,6 +18,11 @@
     * deploy display attributes
     * deploy media responses 
 
+# Link to  the deployed page
 
+    https://roman-ac.github.io/assignment2-project-portfolio/
+
+
+# Screenshot
 
 ![webpage screenshot](./assets/images/screenshot.png)
