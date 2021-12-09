@@ -95,6 +95,7 @@ section {
 #About-Me {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     flex: 1;
     width: 200px;
     height: 300px;
@@ -119,6 +120,8 @@ section {
 #Work {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
     flex: 1;
     width: 200px;
     height: 450px;
@@ -128,15 +131,13 @@ section {
 }
 
 .project {
-    display: inline-block;
+    display: inline-block   ;
     flex-wrap: wrap;
     flex: 2;
     height: 450px;
     margin-left: 20px;
     border: 2px solid black;
-    
-
-    
+       
 }
 
 h3 {
@@ -159,10 +160,11 @@ h3 {
 #contact-me {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     flex: 1;
     width: 200px;
     height: 100px;
-    padding: 20px;
+    padding-right: 20px;
     font-size: 200%;
     background-color: cadetblue;
     border-right: 2px solid black;
@@ -172,6 +174,7 @@ h3 {
 .list {
     display:flex;
     flex-wrap: wrap;
+    flex: 2;
     list-style-type: none;
     justify-content: space-around;
     padding-top: 20px;
