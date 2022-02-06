@@ -102,8 +102,10 @@ section {
     height: 300px;
     padding: 20px;
     font-size: 200%;
-    background-color: cadetblue;
+    background-color: #062b3d;
+    color: white;    
     border-right: 2px solid black;
+    border-radius: 10px;
 
 }
 
@@ -125,20 +127,51 @@ section {
     width: 15%;
     height: 450px;
     font-size: 200%;
-    background-color: cadetblue;
+    background-color: #062b3d;
+    color: white;
     border-right: 2px solid black;
+    border-radius: 10px;
 }
 
 .container22 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 85%;
+    height: 450px;
+}
+
+
+.coopedup {
+    width: 100%;
+    height: 380px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+}
+
+.codequiz {
+    width: 100%;
+    height: 250px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+
+}
+
+.weatherdash {
+    width: 100%;
+    height: 250px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+
+
 }
 
 .project {
     display: inline-block   ;
     flex-wrap: wrap;
-    height: 450px;
-    margin-left: 20px;
     border: 2px solid black;
+    background-color: #616b75;
+    color: white;
        
 }
 
@@ -151,14 +184,6 @@ h3 {
     text-align: center;
 }
 
-#webimage {
-    display: flex;
-    flex-wrap: wrap;
-    height: 350px;
-    width: 300px;
-    float: left;
-}
-
 #contact-me {
     display: flex;
     align-items: center;
@@ -168,8 +193,10 @@ h3 {
     height: 100px;
     padding-right: 20px;
     font-size: 200%;
-    background-color: cadetblue;
+    background-color: #062b3d;
+    color: white;
     border-right: 2px solid black;
+    border-radius: 10px;
 
 }
 
@@ -180,7 +207,12 @@ h3 {
     list-style-type: none;
     justify-content: space-around;
     padding-top: 20px;
+    margin-left: 20px;
     padding-left: 30px;
+    background-color: #616b75;
+    color: white;
+    border-radius: 10px;
+    height: 100px;
 }
 
 .list li a {
@@ -199,6 +231,7 @@ h3 {
 .footlink {
     margin-top: 30px;
     font-size: 20px;
+    color: white;
 }
 
 .decor {
